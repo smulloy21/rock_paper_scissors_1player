@@ -1,7 +1,7 @@
-# require('capybara/rspec')
-# require('./app')
-# Capybara.app = Sinatra::Application
-# set(:show_exceptions, false)
+require('capybara/rspec')
+require('./app')
+Capybara.app = Sinatra::Application
+set(:show_exceptions, false)
 #
 # describe('the rock paper scissors path', {:type => :feature}) do
 #   it('processes the user entry and returns the game winner') do

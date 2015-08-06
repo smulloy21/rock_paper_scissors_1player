@@ -1,6 +1,6 @@
-# require('rspec')
-# require('rock_paper_scissors.rb')
-#
+require('rspec')
+require('rock_paper_scissors.rb')
+
 # describe('String#beats?') do
 #   it("returns true if rock is the object and scissors is the argument") do
 #     expect("rock".beats?("scissors")).to(eq("Player 1 is the winner!"))
